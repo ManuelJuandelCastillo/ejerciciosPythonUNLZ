@@ -1,0 +1,13 @@
+print("\n************************************************************************")
+print("Programa que realiza varias operaciones matematicas entre 2 numeros")
+print("************************************************************************\n")
+num1 = float(input("Ingrese el primer numero: "))
+num2 = float(input("Ingrese el segundo numero: "))
+
+print("suma: ", num1+num2)
+print("resta: ", num1-num2)
+print("multiplicacion: ", num1*num2)
+print("division: ", num1/num2)
+print("potencia: ", num1**num2)
+print("division entera: ", num1//num2)
+print("resto: ", num1%num2)
