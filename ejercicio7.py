@@ -10,6 +10,5 @@ while flag:
     else:
         lista.append(num)
 
-lista.sort()
-print("El menor numero ingresado es el ", lista[0])
-print("El mayor numero ingresado es el ", lista[len(lista)-1])
+print("El menor numero ingresado es el ", min(lista))
+print("El mayor numero ingresado es el ", max(lista))
