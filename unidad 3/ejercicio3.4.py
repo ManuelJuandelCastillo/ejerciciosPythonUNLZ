@@ -16,7 +16,7 @@ def vocal(frase):
 def consonante(frase):
     #funcion que extrae las consonantes
     for letra in frase:
-        if letra not in ("aeiouAEIOU"):
+        if letra not in ("aeiouAEIOU "):
             consonantes.append(letra)
 
     return(consonantes)
